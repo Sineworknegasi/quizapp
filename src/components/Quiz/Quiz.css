@@ -1,8 +1,7 @@
 
 .container {
     width: 640px;
-    margin: auto;
-    margin-top: 150px;
+    margin: 100px auto;
     background: white;
     color: #262626;
     display: flex;
@@ -16,7 +15,6 @@
     height: 2px;
     border: none;
     background: #707070;
-
 }
 
 .container h2 {
@@ -51,4 +49,14 @@
 .container .index {
     margin: auto;
     font-size: 18px;
+}
+
+.container .correct {
+    background: #dffff2;
+    border-color: #00d397;
+}
+
+.container .wrong {
+    background: #ff9999;
+    border-color: #ff0000;
 }
